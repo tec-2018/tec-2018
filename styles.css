@@ -10,7 +10,21 @@ a.mlhLOGO {
   opacity: 1.0;
 	text-align: center;
 }
+h1 {
+  color: #332547;
+}
+teenexplore {
+  color: #CBBDE0;
+}
+dateANDloc {
+  color: #F2F2F2
+}
+tec-hacks{
+  color: #332547;
+}
+head {
 
+}
 ul {
     list-style-type: none;
     margin: 0;
