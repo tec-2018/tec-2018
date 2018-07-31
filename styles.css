@@ -20,3 +20,11 @@ a.nav {
 a.nav:hover {
   opacity: 0.5;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
