@@ -5,6 +5,10 @@ a.mlhLOGO {
   height: 162px;
   left: 47px;
   top: 2px;
+  text-indent: -9999px;
+  background-size: 91px 162px;
+  opacity: 1.0;
+	text-align: center;
 }
 
 ul {
@@ -31,8 +35,9 @@ a.nav:hover {
 }
 body{
   padding: 0;
-  text-align: center;
+  margin-left: 350px;
+  text-align: left;
   font-family: 'Lato', sans-serif;
-  color: #222;
+  color: #B6A2D4;
   background: #FFFFFF;
 }
