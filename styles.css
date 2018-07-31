@@ -10,9 +10,6 @@ a.mlhLOGO {
   opacity: 1.0;
 	text-align: center;
 }
-h1 {
-  color: #332547;
-}
 h3.teenexplore {
   position: absolute;
   width: 825.63px;
@@ -45,7 +42,7 @@ h5.dateANDloc {
 
   color: #F2F2F2;
 }
-tec-hacks{
+h1.tec-hacks{
   position: absolute;
   width: 522.3px;
   height: 67.55px;
@@ -60,15 +57,12 @@ tec-hacks{
 
   color: #B6A2D4;
 }
-head {
-
-}
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li {
+li.subnav {
     display: inline;
 }
 a.nav {
