@@ -1,5 +1,7 @@
+
 * {
     box-sizing: border-box;
+    background-color: #332547;
 }
 .row::after {
     content: "";
@@ -26,7 +28,6 @@ html {
     font-family: "Asap";
 }
 .header {
-  background-color: #332547;
   color: #B6A2D4;
 }
 a.mlh {
@@ -54,6 +55,38 @@ a.mlh {
 }
 .menu li:hover {
     color: #0099cc;
+}
+.tecLogo {
+  position: absolute;
+  width: 432px;
+  height: 400px;
+  margin-left: 43px;
+  margin-top: 145px;
+}
+.splash {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.tecHacks {
+  color: #B6A2D4;
+}
+span.tecHacks1{
+  font-weight:lighter;
+  font-size: 96px;
+}
+span b.tecHacks2 {
+  font-weight: bold;
+  font-size: 96px;
+}
+.teensExploring {
+  font-size: 48px;
+  margin-top: 0px;
+  color: #CBBDE0;
+}
+.eventInfo {
+  font-size: 36px;
+  margin-top: 0px;
+  color: #F2F2F2;
 }
 .about {
   position: absolute;
