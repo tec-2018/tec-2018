@@ -1,11 +1,20 @@
-body{
-  padding: 0;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  color: #222;
-  background: #FFFFFF;
+a.mlhLOGO {
+  background-image: url(images/gray.png);
+  position: absolute;
+  width: 91px;
+  height: 162px;
+  left: 47px;
+  top: 2px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
 a.nav {
   position: absolute;
   width: 534.48px;
@@ -20,11 +29,10 @@ a.nav {
 a.nav:hover {
   opacity: 0.5;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;
+body{
+  padding: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  background: #FFFFFF;
 }
