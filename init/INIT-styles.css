@@ -1,0 +1,81 @@
+a.mlhLOGO {
+  background-image: url(images/gray.png);
+  position: absolute;
+  width: 91px;
+  height: 162px;
+  left: 47px;
+  top: 2px;
+  text-indent: -9999px;
+  background-size: 91px 162px;
+  opacity: 1.0;
+	text-align: center;
+}
+h1.tecHacks{
+  position: absolute;
+  width: 522.3px;
+  height: 67.55px;
+  left: 426px;
+  top: 185px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 96px;
+
+  color: #B6A2D4;
+}
+h3.teenExplore {
+  position: absolute;
+  width: 825.63px;
+  height: 39.1px;
+  left: 847px;
+  top: 213px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+  text-transform: lowercase;
+
+  color: #CBBDE0;
+}
+h5.dateANDloc {
+  position: absolute;
+  width: 825.63px;
+  height: 32.97px;
+  left: 426px;
+  top: 291px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+  text-transform: lowercase;
+
+  color: #F2F2F2;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.subnav {
+    display: inline;
+}
+a.nav {
+  position: absolute;
+  width: 534.48px;
+  height: 22px;
+  left: 893px;
+  top: 26px;
+  margin-right: 5px;
+	margin-left: 5px;
+	color: #B6A2D4;
+	text-decoration: none;
+}
+a.nav:hover {
+  opacity: 0.5;
+}
