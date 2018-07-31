@@ -10,7 +10,22 @@ a.mlhLOGO {
   opacity: 1.0;
 	text-align: center;
 }
-h3.teenexplore {
+h1.tecHacks{
+  position: absolute;
+  width: 522.3px;
+  height: 67.55px;
+  left: 426px;
+  top: 185px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 96px;
+
+  color: #B6A2D4;
+}
+h3.teenExplore {
   position: absolute;
   width: 825.63px;
   height: 39.1px;
@@ -41,21 +56,6 @@ h5.dateANDloc {
   text-transform: lowercase;
 
   color: #F2F2F2;
-}
-h1.tec-hacks{
-  position: absolute;
-  width: 522.3px;
-  height: 67.55px;
-  left: 426px;
-  top: 185px;
-
-  font-family: Asap;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 96px;
-
-  color: #B6A2D4;
 }
 ul.nav {
     list-style-type: none;
