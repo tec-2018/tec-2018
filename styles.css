@@ -13,14 +13,52 @@ a.mlhLOGO {
 h1 {
   color: #332547;
 }
-teenexplore {
+h3.teenexplore {
+  position: absolute;
+  width: 825.63px;
+  height: 39.1px;
+  left: 847px;
+  top: 213px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+  text-transform: lowercase;
+
   color: #CBBDE0;
 }
-dateANDloc {
-  color: #F2F2F2
+h5.dateANDloc {
+  position: absolute;
+  width: 825.63px;
+  height: 32.97px;
+  left: 426px;
+  top: 291px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 36px;
+  text-transform: lowercase;
+
+  color: #F2F2F2;
 }
 tec-hacks{
-  color: #332547;
+  position: absolute;
+  width: 522.3px;
+  height: 67.55px;
+  left: 426px;
+  top: 185px;
+
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 96px;
+
+  color: #B6A2D4;
 }
 head {
 
@@ -46,12 +84,4 @@ a.nav {
 }
 a.nav:hover {
   opacity: 0.5;
-}
-body{
-  padding: 0;
-  margin-left: 350px;
-  text-align: left;
-  font-family: 'Lato', sans-serif;
-  color: #B6A2D4;
-  background: #FFFFFF;
 }
