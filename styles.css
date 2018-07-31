@@ -1,0 +1,35 @@
+div#header  {
+   display: block;
+}
+
+.tecHacks  {
+  position: absolute;
+  width: 522.3px;
+  height: 67.55px;
+  left: 426px;
+  top: 185px;
+
+  font-size: 96px;
+  font-family:'Asap';
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  color: #B6A2D4;
+}
+
+.teensExplore  {
+  position: absolute;
+  width: 825.63px;
+  height: 39.1px;
+  left: 847px;
+  top: 213px;
+
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+  text-transform: lowercase;
+
+  color: #CBBDE0;
+}
