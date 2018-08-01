@@ -37,39 +37,7 @@
       </div>
     </div>
 
-    <canvas class="background"></canvas>
-    <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
-    <script>
-      window.onload = function() {
-        Particles.init({
-          selector: '.header__background',
-          color: '#AD98CE',
-          maxParticles: 150,
-          connectParticles: true,
-          responsive: [
-            {
-              breakpoint: 768,
-              options: {
-                maxParticles: 100,
-                color: #AD98CE,
-                connectParticles: false
-              }
-            }, {
-              breakpoint: 425,
-              options: {
-                maxParticles: 75,
-                connectParticles: true
-              }
-            }, {
-              breakpoint: 320,
-              options: {
-                maxParticles: 0
-              }
-            }
-          ]
-        });
-      };
-    </script>
+    <script src="particles.js"></script>
   </body>
 
 
