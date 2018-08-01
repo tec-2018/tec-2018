@@ -177,3 +177,12 @@ nav > ul.right > li > a {
 .lineSkip{
   margin-top: 50px;
 }
+
+/* ---- particles.js container ---- */
+#particles-js{
+  width: 100%;
+  background-color: #3284BF;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
