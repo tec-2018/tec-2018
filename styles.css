@@ -1,7 +1,6 @@
 
 * {
     box-sizing: border-box;
-    background-color: #332547;
 }
 .row::after {
     content: "";
@@ -26,6 +25,21 @@
 .col-12 {width: 100%;}
 html {
     font-family: "Asap";
+}
+body, html {
+  height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url(images/bkg.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header {
   color: #B6A2D4;
