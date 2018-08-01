@@ -185,8 +185,3 @@ nav > ul.right > li > a {
 .lineSkip{
   margin-top: 50px;
 }
-window.onload= function() {
-  Particles.init({
-    selector:'.background'
-    });
-};
