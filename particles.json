@@ -1,7 +1,7 @@
 {
     "particles":{
         "number":{
-            "value":110
+            "value":80
         },
         "color":{
             "value":"7A1851"
@@ -23,11 +23,24 @@
         "line_linked":{
             "enable":true,
             "distance":115,
-             "color": "7A1851"
+             "color": "ffffff"
         },
         "move":{
             "enable":true,
             "speed": 1
+          }
+      },
+      "interactivity":{
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
         }
-    }
+      }
 }
