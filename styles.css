@@ -126,6 +126,8 @@ nav > ul.right > li > a {
 .full-width {
   width: 100%;
 }
+
+
 .underline-magical {
   background-image:-webkit-linear-gradient(212deg, #cc88af 0%, #ffffff 100%);
   background-image:-o-linear-gradient(212deg, #cc88af 0%, #ffffff 100%);
@@ -231,8 +233,8 @@ nav > ul.right > li > a {
   background-color: white;
 }
 .content h3 {
-  font-size:1.4em;
-  line-height:1.5em;
+  font-size:1.7em;
+  line-height:1.2em;
 }
 .content {
   max-width:650px;
