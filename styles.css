@@ -126,7 +126,27 @@ nav > ul.right > li > a {
 .full-width {
   width: 100%;
 }
-
+summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: none;
+	cursor: pointer;
+}
+summary::-webkit-details-marker {
+	display: none;
+}
+summary:after {
+	content: '';
+	display: table;
+	border: solid;
+	border-width: 0 0.2em 0.2em 0;
+	font-size: 0.66em;
+	width: 1em;
+	height: 1em;
+	transform: translateX(-0.3536em) rotate(-45deg);
+	transition: transform 0.3s;
+}
 
 .underline-magical {
   background-image:-webkit-linear-gradient(212deg, #cc88af 0%, #ffffff 100%);
@@ -236,6 +256,10 @@ nav > ul.right > li > a {
   font-size:1.7em;
   line-height:1.2em;
 }
+.content h4 {
+  font-size:1.5em;
+  line-height:1.0em;
+}
 .content {
   max-width:650px;
   margin:0 auto;
@@ -252,5 +276,112 @@ nav > ul.right > li > a {
 }
 
 #faq {
-  background-color: #99587e;
+  background-color: #e8ccdd;
+}
+    .row {
+      align-items: center;
+    	max-width: var(--site-width);
+    	flex-wrap: wrap;
+    	flex-direction: row;
+    	width: 100%;
+    }
+    .row > * {
+    	max-width: 90%;
+    }
+    .row > :not(:only-child) {
+    	padding: 1rem;
+    }
+    .row.halfed > * {
+    	flex: 1 320px;
+    }
+    .questions {
+      align-items: start;
+    	font-size: 0.75em;
+    	line-height: 1.5;
+    	text-align: left;
+    }
+    .questions > * {
+    	padding: 0.5rem;
+    }
+    details[open] > summary:after {
+    	transform: translateY(-0.3536em) rotate(45deg);
+    }
+    details > summary + * {
+    	animation: DetailsOpen 0.5s linear;
+    }
+    details[open] > summary + * {
+    	margin-top: 0.5em;
+    	max-height: 100vh;
+    	animation-direction: reverse;
+    }
+    .subtitle {
+      margin-top: 0px;
+    }
+    .title {
+      line-height: 100%;
+    }
+    .full-title {
+      line-height: 80%;
+    }
+    .descrip {
+     margin-top: 50px;
+    }
+    .answer {
+      font-size: 1.25em;
+      color: #7A1851;
+    }
+
+
+#schedule {
+  background-color: #ffffff;
+}
+#schedule h3 {
+	margin-top: 1.75rem;
+}
+#schedule table {
+	width: 100%;
+}
+tr > * {
+	padding: 0.3rem 0.5rem;
+}
+tr > :first-child {
+	white-space: nowrap;
+	text-align: right;
+}
+tr th {
+	background-color: rgba(122, 24, 81, 0.1);
+}
+tr:nth-of-type(odd) td {
+	background-color: rgba(122, 24, 81, 0.05);
+}
+tr:nth-of-type(even) td {
+	background-color: rgba(122, 24, 81, 0.02);
+  color: #99587e;
+}
+
+#sponsors {
+  background-color: #e8ccdd;
+}
+#sponsors img {
+	max-height: calc(20px + 6 * var(--vw));
+}
+
+.row.sponsor-partner > * {
+	flex: 1 calc(240px + 7 * var(--vw));
+}
+.row.sponsor-pegasus > * {
+	flex: 1 1 calc(130px + 10 * var(--vw));
+	max-width: calc((130px + 10 * var(--vw)) * 1.352);
+}
+.row.sponsor-sphinx > * {
+	flex: 1 calc(90px + 8 * var(--vw));
+	max-width: calc((90px + 8 * var(--vw)) * 1.25);
+}
+.row.sponsor-sprite > * {
+	flex: 1 calc(80px + 5 * var(--vw));
+	padding: 0.5rem;
+	max-width: calc((80px + 5 * var(--vw)) * 1.5);
+}
+.row > * > * + * {
+	margin-top: 1rem;
 }
