@@ -2,12 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+    <meta name = 'author' content = 'Alex Zhai'/>
+    <meta name = 'copyright' content = 'Copyright (c) 2018 Teens Exploring Code'/>
+    <meta name = 'apple-mobile-web-app-capable' content = 'yes'/>
+    <meta name = 'apple-mobile-web-app-status-bar-style' content = 'translucent'/>
 		<title>tecHacks</title>
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/png" href="images/web-spec/Favicon.png"/>
 	</head>
   <a id="tec-original-logo" style="display:block;max-width:100px;min-width:50px;position:fixed;left:-7px;top:-7px;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=gray" target="_blank"><img src="images/tec-logos/tec-logo.png" alt="TEC 2018 Logo" style="width:100%"></a>
@@ -23,11 +27,12 @@
       </ul>
     </nav>
 
+<!-- Hero -->
     <div class="hero-image">
       <div id="home-page">
         <div class="full-width hero-text">
           <p class="white presents-font center heading" id="" data-text="tecHacks">Teens Exploring Code presents</p>
-          <div class="glitch" data-text="GLITCH"><p class="white event-font center heading">tec<b>HACKS IV</b></p></div> 
+          <p class="white event-font center heading">tec<b>HACKS IV</b></p>
           <p class="white info-font center heading">Feb.17 @ <a class="white underline-magical location-map" href="https://www.google.com/maps/place/Mitchell+Park+Community+Center/@37.4222836,-122.1149618,17z/data=!3m1!4b1!4m5!3m4!1s0x808fba6961695425:0xa8028fe7f16d5437!8m2!3d37.4222836!4d-122.1127678" target="_blank"</a>Mitchell Park</p>
           <p class="lineSkip"></p>
           <p><a class="white underline-magical apply-font heading" href="typeform.com" target="_blank">REGISTER</a></p>
@@ -35,12 +40,18 @@
       </div>
     </div>
 
+<!-- About -->
     <div class="panel" id="about">
       <div class="content">
         <div class="full-title">
-          <h2 class="purple1 title">This is tecHACKS IV.</h2>
+          <div class="header__underlineWrapper">
+              <h2 class="purple1 title">This is tecHACKS IV.</h2>
+              <div class="header__underline">
+              </div>
+          </div>
           <h2 class="subtitle">⚛ 💡</h2>
         </div>
+
         <p class="purple2 descrip">In 15 hours of continuous excitement, we'll show you how programming can be fun, thought-provoking, and powerful. With various workshops, speakers, and fun activities throughout the day, TEC provides a welcoming environment perfect for first-time coders and first-time hackathon attendees, along with those with more experience.</p>
         <div class="img-line">
           <img class="img-line-img"src="images/web-spec/chip.png">
@@ -50,14 +61,20 @@
       </div>
     </div>
 
+<!-- FAQ -->
     <div class="panel" id="faq">
       <div class="content">
         <div class="row">
   				<div>
             <div class="full-title">
-              <h2 class="title">Frequently Asked Questions.</h2>
+              <div class="header__underlineWrapper">
+                  <h2 class="title">Frequently Asked Questions.</h2>
+                  <div class="header__underline">
+                  </div>
+              </div>
               <h2 class="subtitle">🤔❓</h2>
             </div>
+
   					<div class="questions row halfed">
   						<details>
   							<summary><h3>Who can attend?</h3></summary>
@@ -116,20 +133,30 @@
   							</div>
   						</details>
 
+              <p>
+                Any other questions? email at+++
+              </p>
+
   					</div>
   				</div>
   			</div>
       </div>
     </div>
 
+<!-- Schedule -->
     <div class="panel" id="schedule">
       <div class="content">
         <section id="schedule">
             <div>
               <div class="full-title">
-                <h2 class="title purple1">Event Schedule.</h2>
+                <div class="header__underlineWrapper">
+                    <h2 class="title purple1">Event Schedule.</h2>
+                    <div class="header__underline">
+                    </div>
+                </div>
                 <h2 class="subtitle">⌛ 🕞</h2>
               </div>
+
               <table class="descrip">
                 <tr><th>Time</th><th>Event</th></tr>
                 <tr><td>7:30 AM</td><td>Check In</td></tr>
@@ -153,43 +180,121 @@
 			</div>
     </div>
 
+<!-- Sponsors -->
     <div class="panel" id="sponsors">
       <div class="content">
         <div class="full-title">
-          <h2 class="title">Our Sponsors.</h2>
+          <div class="header__underlineWrapper">
+              <h2 class="title">Our Sponsors.</h2>
+              <div class="header__underline">
+              </div>
+          </div>
           <h2 class="subtitle">😁 💸</h2>
         </div>
+        <!-- sponsor tiers: sprite (<500), phoenix (500+), sphinx (1000+), pegasus (1500+), partner (2500+) -->
         <section id="sponsors">
-    			<div class="row">
-    				<div>
-              <!-- sponsor tiers: sprite (500), sphinx (1000+) pegasus (1500+) partner (2500+) -->
-              <!--phoenix-->
-    					<div class="row sponsor-partner">
+          <div class="sponsorgrid">
+          <!--partner-->
+            <div class="sponsorsection">
+            </div>
+          <!--pegasus-->
+            <div class="sponsorsection">
+            </div>
+          <!--sphinx-->
+            <div class="sponsorsection">
+              <a class="sponsor sphinx" href="https://www.asianbox.com/"><img src="images/sponsor-logos/asian-box.png" alt="Asian Box"></a>
+            </div>
+          <!--phoenix-->
+            <div class="sponsorsection">
+              <a class="sponsor phoenix" href="https://www.sketchapp.com/"><img src="images/sponsor-logos/sketch.png" alt="Sketch"></a>
+            </div>
+          <!--sprite-->
+            <div class="sponsorsection">
+              <a class="sponsor sprite" href="https://www.quizlet.com/"><img src="images/sponsor-logos/quizlet.png" alt="Quizlet"></a>
+              <a class="sponsor sprite" href="https://www.stickermule.com/"><img src="images/sponsor-logos/sticker-mule.png" alt="Sticker Mule"></a>
+              <a class="sponsor sprite" href="https://www.desmos.com/"><img src="images/sponsor-logos/desmos.png" alt="Desmos"></a>
+              <a class="sponsor sprite" href="https://www.vsco.co/"><img src="images/sponsor-logos/vsco.png" alt="VSCO"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
 
-    					</div>
+<!-- Team -->
+    <div class="panel" id="team">
+      <div class="content">
+        <div class="full-title">
+          <div class="header__underlineWrapper">
+              <h2 class="purple1 title">Meet the team.</h2>
+              <div class="header__underline">
+              </div>
+          </div>
+          <h2 class="subtitle">👨‍💻 👩‍💻</h2>
+        </div>
 
-              <!--pegasus-->
-              <div class="row sponsor-pegasus">
+        <div class="team-line row">
+						<figure>
+              <img src="images/team/lily.png" class="team-line-img" alt="Lily Li">
+              <div class="mem-descrip">
+                <h4 class="name">Lily Li</h4>
+  							<p class="subtitle">Executive Director</p>
+              </div>
+						</figure>
 
-    					</div>
+            <figure>
+              <img src="images/team/akshay.png" class="team-line-img" alt="Akshay Bodla">
+              <div class="mem-descrip">
+                <h4 class="name">Akshay Bodla</h4>
+  							<p class="subtitle">Executive Director</p>
+              </div>
+						</figure>
+					</div>
 
-              <!--sphinx-->
-              <div class="row">
-                <a target="_blank" href="https://www.asianbox.com/"><img class="sponsor-sphinx" src="images/sponsor-logos/asian-box.png" alt="Asian Box" title="Asian Box"></a>
-                <a target="_blank" href="https://www.asianbox.com/"><img class="sponsor-sphinx" src="images/sponsor-logos/sketch-WHITE.png" alt="Sketch" title="Sketch"></a>
-    					</div>
+          <div class="team-line row">
+  						<figure>
+                <img src="images/team/calvin.png" class="team-line-img" alt="Calvin Yan">
+                <div class="mem-descrip">
+                  <h4 class="name">Calvin Yan</h4>
+    							<p class="subtitle">Education + Logistics</p>
+                </div>
+  						</figure>
 
-              <!--sprite-->
-              <div class="row">
-                <a target="_blank" href="https://www.interviewcake.com/"><img class="sponsor-sprite" src="images/sponsor-logos/NA-interview-cake-COLOR.png" alt="Interview Cake" title="Interview Cake"></a>
-    					</div>
-    				</div>
-    			</div>
-		     </section>
+              <figure>
+                <img src="images/team/isha.png" class="team-line-img" alt="Isha Rajput">
+                <div class="mem-descrip">
+                  <h4 class="name">Isha Rajput</h4>
+    							<p class="subtitle">Event Logistics</p>
+                </div>
+  						</figure>
 
+              <figure>
+                <img src="images/team/alex.png" class="team-line-img" alt="Alex Zhai">
+                <div class="mem-descrip">
+                  <h4 class="name">Alex Zhai</h4>
+    							<p class="subtitle">PR/Marketing + Webmaster</p>
+                </div>
+  						</figure>
+  					</div>
 
+            <div class="team-line row">
+              <figure>
+                <img src="images/team/isabella.png" class="team-line-img" alt="Isabella Krzesniak">
+                <div class="mem-descrip">
+                  <h4 class="name">Isabella Krzesniak</h4>
+                  <p class="subtitle">Sponsorship</p>
+                </div>
+              </figure>
 
-			</div>
+              <figure>
+                <img src="images/team/teresa.png" class="team-line-img" alt="Teresa Yang">
+                <div class="mem-descrip">
+                  <h4 class="name">Teresa Yang</h4>
+    							<p class="subtitle">PR/MarketingÓ</p>
+                </div>
+  						</figure>
+  					</div>
+        <br/>
+      </div>
     </div>
 
 
