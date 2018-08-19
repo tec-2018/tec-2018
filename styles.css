@@ -388,6 +388,10 @@ tr:nth-of-type(even) td {
 #sponsors a {
   color: #7A1851;
 }
+.spons-subtitle {
+  margin-top: 0px;
+  line-height: 1em;
+}
 .sponsorsection {
   margin: 0 auto;
   display:flex;
@@ -430,7 +434,9 @@ tr:nth-of-type(even) td {
 .sprite {
   height:30px;
 }
-
+.spons-pack {
+  text-decoration: none;
+}
 #team {
   background-color: #ffffff;
 }
@@ -462,4 +468,52 @@ tr:nth-of-type(even) td {
 .name {
   margin-top: 6px;
   margin-bottom: 3px;
+}
+
+/* FOOTER */
+#foot {
+  background-color: #ffffff;
+  color: #7A1851;
+}
+.bottom {
+  position:relative;
+  text-align: left;
+  padding: 5em 2em 1em;
+}
+.footer {
+  position: absolute;
+  bottom: 10px;
+}
+.footer a {
+  font-size:1.2em;
+  margin-right:.5em;
+  display: inline-block;
+  text-indent: -9999px;
+  width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+  opacity: 1.0;
+  transition: all .25s;
+	text-align: center;
+}
+.footer a:hover {
+  transform: scale(2) rotate(-2.5deg);
+}
+.soc-med-link {
+  text-decoration: none;
+}
+a.twitter {
+	margin-left: 10px;
+  background-image: url(images/web-spec/social-media/twitter.svg);
+}
+a.facebook:hover {
+  transform: scale(2) rotate(5deg);
+}
+a.facebook {
+	margin-left: 10px;
+  background-image: url(images/web-spec/social-media/facebook.svg);
+}
+a.instagram {
+	margin-left: 10px;
+  background-image: url(images/web-spec/social-media/instagram.svg);
 }
