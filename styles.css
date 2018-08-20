@@ -435,8 +435,7 @@ tr:nth-of-type(even) td {
   height:100px;
 }
 .pegasus {
-  width:250px;
-  height:70px;
+  height: 90px;
 }
 .sphinx {
   height:70px;
